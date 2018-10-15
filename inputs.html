@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inputs demo</title>
+</head>
+<body>
+	<form action="http://www.wikipedia.org" method="get">
+		<p>Do you prefer cats or dogs?</p>
+
+		<label for="First">Dogs: </label>
+		<input id="First" type="radio" name="petchoice" value="CATS" required>
+
+		<label for="Second">Cats:</label>
+		<input id="Second"type="radio" name="petchoice" value="DOGS" required>
+
+		<p>What's your current mood?</p>
+		<select name="mood">
+			<option value="happy">:)</option>
+			<option value="emotionless">:|</option>
+			<option value="sad">:(</option>
+		</select>
+		<p></p>
+		<textarea name="paragraph" rows="10" cols="10"></textarea>
+		<button>GO!</button>
+	</form>
+
+</body>
+</html>
